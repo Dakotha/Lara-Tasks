@@ -72,3 +72,10 @@ Aby rozpocząć zaloguj się używając danych podczas rejestracji przykładoweg
 ## DEMO
 
 Demo: https://lara-tasks.robb.cfolks.pl/
+
+Dane logowania:
+
+```
+login: admin@admin.com
+hasło: password
+```
