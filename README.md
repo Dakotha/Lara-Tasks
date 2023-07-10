@@ -45,6 +45,8 @@ W terminalu wpisz następujące komendy:
 ```
 composer install
 php artisan key:generate
+npm install
+npm run build
 php artisan migrate
 ```
 
