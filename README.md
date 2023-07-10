@@ -68,3 +68,7 @@ php artisan serve
 ```
 
 Aby rozpocząć zaloguj się używając danych podczas rejestracji przykładowego użytkownika.
+
+## DEMO
+
+Demo: https://lara-tasks.robb.cfolks.pl/
