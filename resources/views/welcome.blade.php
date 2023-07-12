@@ -28,15 +28,15 @@
 
                 <div class="my-16">
                     <div class="prose max-w-full">
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                        <div class="scale-100 p-6 text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
                                 <div class="flex justify-between items-center">
-                                    <h1>Zadanie rekrutacyjne</h1>
-                                    <a class="px-4 py-2 border text-white no-underline bg-green-400 rounded-md hover:bg-green-600 transition-colors" href="{{ route('platform.projects.list') }}">Logowanie</a>
+                                    <h1 class="text-gray-800 dark:text-gray-200">Zadanie rekrutacyjne</h1>
+                                    <a class="px-4 py-2 border dark:border-gray-800 text-white no-underline bg-green-400 rounded-md hover:bg-green-600 transition-colors" href="{{ route('platform.projects.list') }}">Logowanie</a>
                                 </div>
                                 
                                 <p>
-                                    Celem zadania jest stworzenie prostego systemu do zarządzania projektami w oparciu o Laravel i Orchid (<a href="https://orchid.software/" target="_blank">https://orchid.software/</a>). System powinien umożliwiać:
+                                    Celem zadania jest stworzenie prostego systemu do zarządzania projektami w oparciu o Laravel i Orchid (<a class="text-green-600" href="https://orchid.software/" target="_blank">https://orchid.software/</a>). System powinien umożliwiać:
                                 </p>
 
                                 <ul>
@@ -80,7 +80,7 @@
                                 </p>
 
                                 <p>
-                                    Aby rozpocząć <a href="{{ route('platform.projects.list') }}">Zaloguj się</a>
+                                    Aby rozpocząć <a class="text-green-600" href="{{ route('platform.projects.list') }}">Zaloguj się</a>
                                 </p>
                             </div>
                         </div>
